@@ -1,0 +1,41 @@
+/* Container styling to add consistent border */
+.phone-input-container {
+  border: 1px solid #e8e7e7c0;
+  border-radius: 6px;
+  background-color: #fbfcff;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Remove any default borders from the phone input */
+.indici-phone-input.PhoneInput {
+  border: none !important;
+  outline: none !important;
+  height: 39px;
+  padding-left: 9px;
+}
+
+/* Style the input field */
+.indici-phone-input .PhoneInputInput {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent;
+  height: 37px;
+}
+
+/* Style the country select button */
+.indici-phone-input .PhoneInputCountry {
+  border: none !important;
+  background: transparent !important;
+  padding-left: 5px;
+}
+
+/* Focus state */
+.phone-input-container:focus-within {
+  /* border-color: #86b7fe; */
+  /* box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); */
+}
+
+
+
